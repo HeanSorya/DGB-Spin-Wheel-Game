@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensure this file exists -->
+</head>
+<body>
+    <div class="wheel-container">
+        <img src="wheel_image.png" class="wheel" id="wheelImage">
+        <img src="arrow.png" class="arrow-image"> <!-- Upward Arrow BELOW the Wheel -->
+    </div>
+    <br>
+    <button id="spinButton">Spin</button>
+    <button id="stopButton">Stop</button>
+    <button id="historyButton">History</button> <!-- New History Button -->
+    <p id="result"></p>
+
+    <!-- History Modal -->
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <h2>Spin History</h2>
+            <ul id="historyList"></ul>
+            <button id="closeHistory">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Load JavaScript -->
+</body>
+</html>
+
