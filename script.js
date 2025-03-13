@@ -12,13 +12,13 @@ let spinInterval;
 let spinHistory = [];
 
 const segments = [
-    { label: "Voucher USD 100", start: 0, end: 45, probability: 0.10 },
-    { label: "Voucher USD 50", start: 45, end: 90, probability: 0.10 },
-    { label: "Voucher USD 30", start: 90, end: 135, probability: 0.15 },
+    { label: "Voucher USD 100", start: 0, end: 45, probability: 0.00 },
+    { label: "Voucher USD 50", start: 45, end: 90, probability: 0.05 },
+    { label: "Voucher USD 30", start: 90, end: 135, probability: 0.05 },
     { label: "Voucher USD 20", start: 135, end: 180, probability: 0.10 },
-    { label: "Voucher USD 10", start: 180, end: 225, probability: 0.25 },
+    { label: "Voucher USD 10", start: 180, end: 225, probability: 0.10 },
     { label: "Voucher USD 5", start: 225, end: 270, probability: 0.10 },
-    { label: "DGB Tote Bag", start: 270, end: 315, probability: 0.10 },
+    { label: "DGB Tote Bag", start: 270, end: 315, probability: 0.50 },
     { label: "Thank You", start: 315, end: 360, probability: 0.10 }
 ];
 
